@@ -20,9 +20,14 @@ class Program
         if (p1.x > p2.x)
         {
             Console.WriteLine("p1 is to the right!");
-        } else
+        }
+        else if (p1.x < p2.x)
         {
             Console.WriteLine("p1 is to the left!");
+        }
+        else 
+        {
+            Console.WriteLine("p1 and p2 share x coordinates!");
         }
     }
 }
